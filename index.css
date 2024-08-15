@@ -40,7 +40,17 @@ p {
     font-family: "pf-videotext", sans-serif;
     font-weight: 400;
     font-style: normal;
+    transition: 0.2s;
+}
+
+.primary-button:hover {
+    background-color: black;
+    color: yellow;
+    transform: translateY(-2px);
+    border: 1px solid white;
+    box-shadow: 0 6px rgba(255, 255, 255, 0.623);
 }
 
 nav {
     text-align: center;
+}
