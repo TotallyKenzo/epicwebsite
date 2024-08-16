@@ -4,7 +4,8 @@ function closestrobe() {
     localStorage.setItem("strobe", "True");
 }
 
-if (localStorage.getItem("strobe") != "True") {
+console.log(localStorage.getItem("strobe"));
+if (localStorage.getItem("strobe") === "True") {
     // @ts-ignore
-    document.getElementById("strobeWarning").style.display = "block";
+    document.getElementById("strobeWarning").style.display = "none";
 }
