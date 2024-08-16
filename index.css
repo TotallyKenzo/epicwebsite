@@ -312,6 +312,7 @@ html {
             0 0/100% 200%;
 
     animation: a 2s linear infinite;
+    animation-fill-mode: forwards;
 }
 
 @keyframes a {
