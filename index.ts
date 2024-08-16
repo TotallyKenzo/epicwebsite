@@ -4,9 +4,7 @@ function closestrobe() {
     localStorage.setItem("strobe", "True");
 }
 
-function strobe() {
-    if (!localStorage.getItem("strobe")) {
-        // @ts-ignore
-        document.getElementById("strobeWarning").style.display = "block";
-    }
+if (!localStorage.getItem("strobe")) {
+    // @ts-ignore
+    document.getElementById("strobeWarning").style.display = "block";
 }
