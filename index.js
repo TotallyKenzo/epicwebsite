@@ -4,8 +4,8 @@ function closestrobe() {
     localStorage.setItem("strobe", "True");
 }
 function strobe() {
-    if (localStorage.getItem("strobe") === "True") {
+    if (!localStorage.getItem("strobe")) {
         // @ts-ignore
-        document.getElementById("strobeWarning").style.display = "none";
+        document.getElementById("strobeWarning").style.display = "block";
     }
 }
