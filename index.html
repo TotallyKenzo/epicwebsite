@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://use.typekit.net/wwm4sgq.css">
     <script src="index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <div id="strobeWarning" class="full-popup">
@@ -14,11 +15,12 @@
             <button class="primary-button" onclick="closestrobe()">I understand</button>
         </div>
     </div>
-    <div class="background pixel-corners">
+    <button class="primary-button" onclick="toggleStrobe()" style="position: fixed; bottom: 0">Toggle Strobe</button>
+    <div class="background pixel-corners website-main">
         <h1>Kenzo's Awesome Website</h1>
         <nav>
-            <button class="primary-button" onclick="window.location.href='index.html'">Home</button>
-            <button class="primary-button" onclick="window.location.href='chess.html'">Chess Games</button>
+            <button class="primary-button" onclick="window.location.href='/'">Home</button>
+            <button class="primary-button" onclick="window.location.href='chess'">Chess Games</button>
             <button class="secondary-button">YouTube</button>
             <button onclick="window.location.href='https://github.com/TotallyKenzo'" class="secondary-button">GitHub</button>
         </nav>

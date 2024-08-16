@@ -318,3 +318,12 @@ html {
 @keyframes a {
     to {background-position:0 -200%}
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    .website-main {
+        width: auto;
+        transition: 0.5s;
+    }
+}
