@@ -26,6 +26,10 @@ p {
     color: white;
 }
 
+* {
+    transition: 0.5s;
+}
+
 .background {
     background-color: rgba(0, 0, 0, 1);
 }
@@ -319,7 +323,6 @@ html {
 @media only screen and (max-width: 768px) {
     .website-main {
         width: auto;
-        transition: 0.5s;
     }
 }
 
@@ -327,7 +330,6 @@ html {
     .website-side {
         max-width: 195px;
         min-height: 500px;
-        padding: 5px;
     }
     .side-container {
         float: left;
@@ -340,7 +342,6 @@ html {
     .website-main {
         max-width: 600px;
         margin: auto;
-        padding: 15px;
     }
 }
 
@@ -359,4 +360,9 @@ html {
 
 .website-main {
     margin: auto;
+    padding: 15px;
+}
+
+.website-side {
+    padding: 5px;
 }
